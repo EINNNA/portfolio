@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "jaapokki";
+    src: url('../images/jaapokki.ttf');
+}
+
+@font-face {
+    font-family: "ikaros";
+    src: url('../images/Ikaros.otf');
+}
+
+@font-face {
+    font-family: "quick";
+    src: url('../images/Quick.ttf');
+}
+
+body {
+    background-image: url("../images/background2.jpg");
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "quick";
+}
+
+h1 {
+    font-family: "jaapokki";
+    letter-spacing: 6px;  
+    margin: 20px;
+    text-align: center;
+}
+
+.ephitet {
+    letter-spacing: 4px;
+}
+
+.logo {
+    width: 15%;
+    position: center;
+}
+ul {
+    padding-inline-start: 0px;
+}
+
+li:before {
+    content: " | ";
+}
+
+li:first-child:before {
+    content: none;
+}
+
+#list ul li{
+    text-align: center;
+    list-style: none;
+    display: inline;
+    letter-spacing: 3px;
+}
+
+#list {
+    margin: 20px;
+}
+
+.arrow {
+    font-size: 25px;
+}
+
+.landingWrap {
+    position:absolute; 
+    top:50%; 
+    left:50%; 
+    transform: translate(-50%, -50%);
+}
+
+.dropdown-toggle {
+    color: white;
+    width: 100%;
+}
+
+li:hover {
+    color: #000000;
+    font-style: italic;
+}
+
+
+.hide {
+    display: none;
+}
